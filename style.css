@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+nav {
+  background: #6b7aa1;
+  padding: 20px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+  transition: 0.4s ease;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .container .logo h1 {
+  font-family: 'Krona One';
+  font-size: 28px;
+  color: #fff;
+}
+
+nav .container .nav-list ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .container .nav-list ul li {
+  list-style: none;
+  margin-right: 14px;
+}
+
+nav .container .nav-list ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  opacity: 0.6;
+}
+
+nav .container .nav-list ul li a:hover {
+  opacity: 1;
+}
+
+main {
+  padding: 80px 0 0 0p;
+}
+
+main #home .container {
+  padding: 80px;
+  text-align: center;
+}
+
+main #home .container img {
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+main #home .container .text-description p {
+  margin-bottom: 10px;
+}
+
+main #home .container .text-description p:nth-child(1) {
+  color: #5c5c5c;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+main #home .container .text-description p:nth-child(2) {
+  color: #5c5c5c;
+  opacity: 0.9;
+  font-size: 18px;
+}
+
+main #skills {
+  background: #11324d;
+}
+
+main #skills .container {
+  text-align: center;
+  padding: 40px;
+}
+
+main #skills .container .title h2 {
+  font-family: 'Krona One';
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+main #skills .container .list-skills i {
+  margin-right: 16px;
+}
+
+.fa-html5 {
+  color: #e34c26;
+}
+
+.fa-css3 {
+  color: #0098ff;
+}
+
+.fa-js {
+  color: #f0db4f;
+}
+
+.fa-bootstrap {
+  color: #7952b3;
+}
+
+.fa-react {
+  color: #61dafb;
+}
+
+.fa-angular {
+  color: #dd1b16;
+}
+
+main #portfolio {
+  background: #fefefe;
+}
+
+main #portfolio .container {
+  text-align: center;
+  padding: 40px;
+}
+
+main #portfolio .container .title h2 {
+  font-family: 'Krona One';
+  color: #000;
+  margin-bottom: 25px;
+}
+
+main #portfolio .container .list-portfolio img {
+  width: 250px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+main #portfolio .container .list-portfolio img:hover {
+  opacity: 0.5;
+}
+
+footer {
+  background: #11324d;
+}
+
+footer .container {
+  text-align: center;
+  padding: 40px;
+}
+
+footer .container h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+footer .container .socmed p {
+  font-size: 18px;
+  color: #fff;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+footer .container .socmed i {
+  color: #000;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+footer .container .socmed i:hover {
+  opacity: 1;
+}
